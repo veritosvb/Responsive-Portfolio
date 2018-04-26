@@ -1,0 +1,352 @@
+
+/*
+Applied to all
+*/
+body {
+    /* For all other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;.*/
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/concrete_seamless.png");
+    background-color: #cccccc;
+   /*
+   Regular font color (used for paragraphs and all text besides 
+   the headings): #777777
+   */
+    color:  #777777;
+    font-size: 17px;
+    user-select:none;
+}
+
+/*
+For heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;.
+*/
+h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-size: 28px;
+    font-weight:bold;
+}
+
+/* 
+Main Header
+Main header background color: #ffffff
+Main header border color: #cccccc
+*/
+.topBar{
+    position: fixed;
+    z-index: 1;
+    top:0;
+    background-color: #ffffff;
+    width: 100%;
+    border-bottom: 2px solid #cccccc; 
+}
+
+/* 
+Fixes nav buttons in 960px
+*/
+.widthTopBar{
+    padding-left: 20%;
+    padding-right: 20%;
+    display:block;
+    width:960px;
+    height:75px;
+    outline:0
+}
+
+/* 
+Modifies h1 for green background and costume size for my name
+*/
+#myNameBar {
+    float:left;
+    margin: 0;
+    padding: 24px;
+    background-color: #4aaaa5;   
+    width: 155px;
+    color: #eee;
+    text-align:center;
+}
+
+#myNameBar:hover {
+    background-color: #f1bc0d;   
+}
+/* 
+Contains unsorted list with Links for all bio
+*/
+.myLinkBar{
+    padding: 30px 25px 30px 25px;
+    float:right;
+}
+/* 
+Formats links in the Nav Panel
+*/
+.navButton{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    color: #777777;
+}
+/* 
+Middle Nav Link has to border lines to separate elements
+*/
+.middle{
+    border-left: 1px solid #cccccc;
+    border-right: 1px solid #cccccc;
+    padding-left: 10px;
+    padding-right:10px;
+}
+/* 
+List added horizontally
+*/
+li{
+    width:85px;
+    text-align: center;
+    float:left;
+}
+
+.navButton:hover {
+    background-color: #4aaaa5;
+    color: #eee;
+}
+/* 
+Main content background color: #ffffff Main content border color: #dddddd
+The entire content and the main section content area is 960px wide.
+*/
+.central{
+    clear: both;
+    margin-left:20%;
+    margin-top: 100px;
+    margin-bottom:60px;
+    margin-left:20%;
+    background-color: #ffffff;
+    width: 905px;
+    border: 1px solid #dddddd;
+    padding:30px;
+}
+/* 
+Contact webpage has a bigger margin bottom than other pages...or seems like
+*/
+.contact{
+    margin-bottom:200px;
+}
+
+/* 
+h1 heading mod. for section heading.
+*/
+#about-me{
+    padding: 10px 20px 30px 0px;
+    clear: both;
+    border-bottom: 3px solid #dddddd;
+    color: #4aaaa5;
+
+}
+/* 
+Applied only to text and forms. Not done in body dt realized about this late in the homework and modifies other values
+*/
+p, form{
+    text-align: justify;
+    line-height: 2;
+}
+
+/* 
+Costume size from my awsome scuba diving suit pic
+*/
+.myPic{
+    width: 180px;
+    height: 210px;
+    float: left;
+    padding:30px 20px 20px 0px;
+}
+
+/* 
+My Bio text
+*/
+aside{
+    padding:20px 0px 20px 0px;
+    overflow: auto;
+}
+
+/* 
+My Bio text continues 
+*/
+.main-bottom{
+   clear:both;
+   padding-bottom: 20px;
+}
+
+/* 
+Contact Buttom
+*/
+input{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #777777;
+    font-size: 17px;
+    width:99%;
+    padding:7px 0px 10px 10px;
+}
+
+/*
+Write message format text. It does not take the ones from body
+*/
+textarea{
+    width:100%;
+    border: 1px solid #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:  #777777;
+    font-size: 17px;
+}
+
+/*
+Submit buttom in Contact page
+*/
+.formButtom{
+    width:100px;
+    background-color:  #4aaaa5;  
+    color: #eee;
+    padding:10px;
+    font-size: 17px;
+}
+
+.formButtom:hover{
+    font-style: italic;
+}
+
+/*
+Sorts images  in Portafolio
+*/
+.top-left {
+    position: relative;
+    float: left;
+    padding: 20px 20px 20px 0px;
+}
+
+.top-right {
+    position: relative;   
+    float: left;
+    padding: 20px;
+}
+
+.middle-left {
+    clear:both;
+    position: relative;
+    float: left;
+    padding: 20px 20px 20px 0px;
+}
+
+.middle-right {
+    position: relative;
+    float: left;
+    padding: 20px;
+}
+
+.bottom-left {
+    clear:both;
+    position: relative;
+    padding: 20px 20px 20px 0px;
+ }
+/*
+Text on top of images in Portfolio page
+*/
+.textBanner{
+    position: absolute;
+    bottom: 15%;
+    background-color: #4aaaa5;
+    color: #eee; 
+    width:246px;
+    padding:15px;
+    text-align: center;
+}
+/*
+Footer background color: #666666
+*/
+
+footer{
+   position:fixed;
+   bottom: 0;
+   border-top: 6px solid #4aaaa5;
+   padding-top: 30px;
+   background-color:#666666;
+   color:  #cccccc;
+   font-style: normal;
+   font-size: 8px;
+   text-align:center;
+   width:100%;
+   page-break-after: always;
+}
+/*
+in case I need this
+*/
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*
+Use three @media screen tags, each with one of these max-widths: 980px, 768px and 640px.
+*/
+@media only screen and (max-width: 980px) {
+   .widthTopBar{
+    max-width: 830px;
+    padding-left: 30px;
+   }
+   .central{
+    margin-left:30px;
+    width: 743px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .widthTopBar{
+        max-width: 650px;
+       }
+    .central{
+         width: 620px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .widthTopBar{
+        max-width: 600px;
+       }
+    .central{
+         width: 480px;
+    }
+
+    aside{
+        clear:both;
+    }
+
+    .myPic{
+        width: 280px;
+        height: 380px;
+        margin-left:20%;
+    }
+
+    .top-left {
+        clear: both;
+        padding: 20px;
+    }
+    
+    .top-right {
+        padding: 20px;
+    }
+    
+    .middle-left {
+        padding: 20px;
+    
+    }
+    
+    .middle-right {
+        padding: 20px;
+    }
+    
+    .middle-right {
+        padding: 20px;
+    }
+    .bottom-left {
+        padding: 20px;
+     }
+
+}
+
+
+
+
+
