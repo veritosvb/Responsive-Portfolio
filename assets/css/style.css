@@ -315,23 +315,40 @@ Use three @media screen tags, each with one of these max-widths: 980px, 768px an
     .myLinkBar{
         clear:both;
         width: 65%;
-
     }
+
     .central{
         margin-top: 180px;
          width: 480px;
     }
 
-    aside{
-        clear:both;
-    }
 
+/*
+Increse and center the Profile picture
+*/
     .myPic{
         width: 280px;
         height: 380px;
         margin-left:20%;
     }
 
+/*
+Text bellow the image
+*/ 
+    aside{
+        clear:both;
+    }   
+
+/*
+Realign all images in Profile & Increase Size
+*/ 
+
+    img{
+        width: 450px;
+    }
+    .textBanner{
+        width:420px;
+    }
     .top-left {
         clear: both;
         padding: 20px;
