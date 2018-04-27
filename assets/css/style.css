@@ -303,9 +303,22 @@ Use three @media screen tags, each with one of these max-widths: 980px, 768px an
 
 @media only screen and (max-width: 640px) {
     .widthTopBar{
-        max-width: 600px;
+        padding-left: 0px;
+        width: 600px;
        }
+
+    #myNameBar {
+        width: 100%;
+        text-align: center;
+       }
+
+    .myLinkBar{
+        clear:both;
+        width: 65%;
+
+    }
     .central{
+        margin-top: 180px;
          width: 480px;
     }
 
@@ -323,20 +336,19 @@ Use three @media screen tags, each with one of these max-widths: 980px, 768px an
         clear: both;
         padding: 20px;
     }
-    
+
     .top-right {
         padding: 20px;
     }
     
     .middle-left {
         padding: 20px;
-    
     }
     
     .middle-right {
         padding: 20px;
     }
-    
+
     .middle-right {
         padding: 20px;
     }
